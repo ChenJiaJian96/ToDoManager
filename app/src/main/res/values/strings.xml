@@ -2,7 +2,13 @@
     <string name="app_name">ToDoManager</string>
 
     <!-- 基本词汇 -->
-    <string name="deadline">截止日期</string>
+    <string name="title">标题</string>
+    <string name="description">备注</string>
+    <string name="startTime">创建时间</string>
+    <string name="endTime">截止时间</string>
+    <string name="location">位置</string>
+
+    <string name="testText">测试文本</string>
 
     <!-- 创建事项 -->
     <string name="create_new_todo">创建新待办</string>

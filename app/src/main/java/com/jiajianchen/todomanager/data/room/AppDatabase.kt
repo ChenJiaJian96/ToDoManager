@@ -24,13 +24,12 @@ abstract class AppDatabase : RoomDatabase() {
                 instance = Room.databaseBuilder(
                     context.applicationContext,
                     AppDatabase::class.java, "MatterDatabase"
-                )
-                    .addCallback(object : RoomDatabase.Callback() {
-                        override fun onCreate(db: SupportSQLiteDatabase) {
-                            // database init operation
-                            fillInDb(context.applicationContext)
-                        }
-                    }).build()
+                ).addCallback(object : RoomDatabase.Callback() {
+                    override fun onCreate(db: SupportSQLiteDatabase) {
+                        // database init operation
+                        fillInDb(context.applicationContext)
+                    }
+                }).build()
             }
             return instance!!
         }
