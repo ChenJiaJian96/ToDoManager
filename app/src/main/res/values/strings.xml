@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ToDoManager</string>
+
+    <!-- 基本词汇 -->
+    <string name="deadline">截止日期</string>
+
+    <!-- 创建事项 -->
+    <string name="create_new_todo">创建新待办</string>
+
+    
+</resources>
